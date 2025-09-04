@@ -10,7 +10,7 @@ const map = new maplibregl.Map({
 // Add zoom controls
 map.addControl(new maplibregl.NavigationControl());
 
-// Add red marker (same as tutor)
+// Add red marker 
 const marker = new maplibregl.Marker({ color: "red" })
   .setLngLat(listing.geometry.coordinates)
   .setPopup(
