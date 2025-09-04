@@ -137,3 +137,12 @@ footer {
     height: 400px;
     width: 100vh;
 }
+
+/* Category heading name  */
+.category-title {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+}

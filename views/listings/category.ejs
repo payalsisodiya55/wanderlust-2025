@@ -1,5 +1,8 @@
-<% layout("/layouts/boilerplate") -%>
-
+<% layout("/layouts/boilerplate") -%> <%if (categoryListing.length > 0) { %>
+<h1 class="category-title"><%= categoryListing[0].category %></h1>
+<% } else { %>
+<h1>No Listings Found</h1>
+<% } %>
 <!-- Card -->
 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 mt-3">
   <% for(let listing of categoryListing) { %>
