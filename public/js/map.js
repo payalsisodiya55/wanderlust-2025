@@ -1,4 +1,4 @@
-const center = window.listing.geometry.coordinates; // coordinates from show.ejs script  // [lng, lat]
+const center = window.listing.geometry.coordinates; // coordinates from show.ejs script [lng, lat]
 
 const map = new maplibregl.Map({
   container: "map",
