@@ -144,5 +144,11 @@ footer {
     color: #2c3e50;
     margin-bottom: 2rem;
     margin-top: 1rem;
+}
 
+/* Login and signup button  */
+.btn-login,
+.btn-signup {
+    background-color: #fe424d !important;
+    border: none !important;
 }
